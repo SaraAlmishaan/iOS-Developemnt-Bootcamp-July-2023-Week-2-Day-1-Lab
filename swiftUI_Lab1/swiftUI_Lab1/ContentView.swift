@@ -14,11 +14,11 @@ struct ContentView: View {
      Image("backgroundpic").resizable()
      VStack{
            
-         Image("profile").resizable().frame(width: 200, height:200, alignment: .top).padding()
+         Image("profile").clipShape(Circle()).padding()
          
          HStack{
              Text("Sara Fahad Mishaan").bold().padding(.leading, 80)
-             Button(action: { print("Hi")} , label: { Text("view profile")})
+             Button(action: { print("Hi")} , label: { Text("view profile").foregroundColor(Color.yellow)})
              }
            
          Text("A fresh graduated with a Bachelor's degree in Computer Science from Al-Imam University")

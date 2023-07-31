@@ -3,13 +3,6 @@
 //  swiftUI_Lab1
 //
 //  Created by Sara on 31/07/2023.
-/*
- 
-
-
- 
- */
-
 
 import SwiftUI
 
